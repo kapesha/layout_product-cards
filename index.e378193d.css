@@ -1,0 +1,147 @@
+:root {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+  width: 200px;
+  height: 408px;
+  padding-block: 32px 16px;
+  display: flex;
+}
+
+.card__img {
+  box-sizing: border-box;
+  padding-inline: 19px;
+  display: flex;
+}
+
+.card__info {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  padding-inline: 16px;
+  display: flex;
+}
+
+.card__overview {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  display: flex;
+}
+
+.card__titles {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 4px;
+  display: flex;
+}
+
+.card__title {
+  color: #060b35;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.card__subtitle {
+  color: #616070;
+  margin: 0;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__reviews {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card__stars {
+  display: flex;
+}
+
+.card__num-of-reviews {
+  color: #060b35;
+  margin: 0;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.card__buy {
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  display: flex;
+}
+
+.card__price {
+  justify-content: space-between;
+  display: flex;
+}
+
+.card__text-price {
+  color: #616070;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.card__amount {
+  color: #060b35;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__buy-button {
+  box-sizing: border-box;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  display: flex;
+}
+
+.card__buy-button:hover {
+  color: #00acdc;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+}
+
+.stars {
+  display: flex;
+}
+
+.stars__star {
+  background: url("star.fa806e3c.svg") center no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars__star:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
